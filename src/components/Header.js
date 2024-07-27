@@ -68,7 +68,7 @@ const WalletHeader = () => {
     return (
         <Header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <Link href="/">
-            <img src="/logo.png" alt="Logo" style={{ height: '256px', marginRight: '10px', marginTop: '30px' }} />
+            <img src="/logo.png" alt="Logo" style={{ height: '200px', marginRight: '10px', marginTop: '30px' }} />
             </Link>
             <nav style={{ display: 'flex', gap: '20px' }}>
             <Link href="/" style={{ color: router.pathname === '/' ? '#A4FF00' : 'white', cursor: 'pointer' }}>Home</Link>
