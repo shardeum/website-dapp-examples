@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Row justify="center" align="top" style={{ minHeight: '100vh', backgroundColor: '#001529', color: '#fff' }}>
         <Col span={24} style={{ textAlign: 'center', paddingTop: '10vh' }}>
-          <Title style={{ color: '#fff', fontWeight: 'bold' }}>Welcome to Shardeum Dapp Boilerplate</Title>
+          <Title style={{ color: '#fff', fontWeight: 'bold' }}>Welcome to  myDapp</Title>
           <Text style={{ fontSize: '18px', color: '#fff' }}>
             Kickstart your decentralized application journey with confidence.
           </Text>
@@ -49,7 +49,7 @@ export default function Home() {
             <Link href="/rpc">
             <Button type="primary" size="large">Get Started</Button>
             </Link>
-            <Link href="https://github.com/Shardeum/shardeum-dapp-boilerplate">
+            <Link href="https://github.com/etherbiln">
             <Button type="default" size="large">Contribute</Button>
             </Link>
 

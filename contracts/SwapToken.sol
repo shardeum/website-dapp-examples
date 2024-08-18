@@ -47,10 +47,16 @@ contract SwapToken {
 
         return amounts[2];
     }
+    
+    event SwapSHMForTST(address indexed user, uint amountIn, uint amountOut);
+
     function swapSHMForTST(
         uint amountOutDesired,
         uint amountInMax
     ) external returns (uint amountOut) {
+        require(amountOutDesired > 0, "Invalid amountOutDesired");
+        require(amountInMax > 0, "Invalid amountInMax");
+        
         shm.transferFrom(msg.sender, address(this), amountInMax);
         shm.approve(address(uniswapRouter), amountInMax);
 
@@ -72,7 +78,7 @@ contract SwapToken {
         if (amounts[0] < amountInMax) {
             shm.transfer(msg.sender, amountInMax - amounts[0]);
         }
-
+        emit SwapSHMForTST(msg.sender, amounts[0], amounts[2]);
         return amounts[2];
     }
 }

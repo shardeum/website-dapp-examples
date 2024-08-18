@@ -1,16 +1,4 @@
-# Shardeum Dapp Boilerplate
-
-![Homepage](/homepage.png)
-
-Welcome to the Shardeum Dapp Boilerplate repository! This is a comprehensive starting point for rapid prototyping your ideas on Shardeum.
-
-This boilerplate is great for:
-
-✅ Learning Blockchain fundmentals
-
-✅ Hackathon participants
-
-✅ Experiencing Shardeum
+# myDapp
 
 ## 🚀 Getting Started
 
@@ -29,9 +17,9 @@ Your boilerplate is now ready and running on your local machine!
 Alternatively, you can manually set up the boilerplate by cloning the repository and installing the necessary dependencies:
 
 ```
-git clone https://github.com/Shardeum/shardeum-dapp-boilerplate
+git clone https://github.com/etherbiln/myDapp
 
-cd shardeum-dapp-boilerplate
+cd myDapp
 
 npm install
 
