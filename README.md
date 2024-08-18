@@ -1,7 +1,5 @@
 # myDapp
 
-![Homepage](/homepage.png)
-
 ## 🚀 Getting Started
 
 ### Option 1: Direct Setup
